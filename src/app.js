@@ -1,8 +1,9 @@
 // Import the built-in 'http' module
 const https = require('https');
+const { hostname } = require('./config');
 
 const options = {
-  hostname: 'www.boredapi.com',
+  hostname,
   path: '/api/activity',
   method: 'GET',
 };
