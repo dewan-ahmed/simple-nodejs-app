@@ -1,0 +1,14 @@
+{
+  "name": "simple-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js app with and without vulnerabilities for CI tutorial",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "CI Bot",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
